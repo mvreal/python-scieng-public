@@ -22,7 +22,7 @@ plt.rc('mathtext', fontset='stix')  # Use with mathtext
 fig, ax = plt.subplots(figsize=(7.5, 4.5))
 ax.plot(t, f, color='C0')
 ax.set_ylabel(r'$f_0(t)$', fontsize=14)
-ax.set_xlabel(r'$t/\tau\quad\rm(ms)}$', fontsize=14)
+ax.set_xlabel(r'$t/\tau\quad\rm{(ms)}$', fontsize=14)
 ax.text(0.45, 0.95,
         r'$\Gamma(z)=\int_0^\infty x^{z-1}e^{-x}dx$',
         fontsize=16, ha='right', va='top',
